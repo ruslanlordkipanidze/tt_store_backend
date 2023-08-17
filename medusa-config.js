@@ -23,7 +23,7 @@ try {
 
 // CORS when consuming Medusa from admin
 const ADMIN_CORS =
-  process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001";
+  "https://tt-store-backend.vercel.app";
 
 // CORS to avoid issues when consuming Medusa from a client
 const STORE_CORS = "https://ttstorefr.vercel.app"; 
