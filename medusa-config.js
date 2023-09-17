@@ -28,9 +28,9 @@ const ADMIN_CORS =
 // CORS to avoid issues when consuming Medusa from a client
 const STORE_CORS = "https://ttstorefr.vercel.app"; 
 const DATABASE_URL =
-  process.env.DATABASE_URL || "postgres://localhost/medusa-store";
+  process.env.DATABASE_URL || "postgresql://postgres:SVfVsKtyo3etY1SiAWrK@containers-us-west-168.railway.app:5489/railway";
 
-const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
+const REDIS_URL = process.env.REDIS_URL || "redis://default:WQVtLLjBYpY7VXkjzsvc@containers-us-west-98.railway.app:5836";
 
 const plugins = [
   `medusa-fulfillment-manual`,
